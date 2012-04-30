@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VezignLight"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ImageView
+        android:id="@+id/logo_qqm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/moto_qqm"
+        android:textColor="#000000"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engagement By Design"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <com.thomasbiddle.vezign.DashboardLayout
+	    style="@style/VezignLight"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/dashLayout"
+	    android:layout_weight="1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp">
+	
+	<!-- 
+	NOTICE REGARDING LAYOUT DESIGN
+		This layout (DashboardLayout) takes into consideration how large
+		the items are that are placing into it, in this case - the buttons
+		and the images that are place on top of them at 'android:drawableTop'.
+		
+		In order to fully utilize this layout, if your layout is displaying with 
+		a vertical row of icons, increase your icon size - or place filler icons in
+		place with extra buttons that have no 'android:onClick' setting.
+	 -->    
+	    <!-- About Button --> 
+	    <Button android:id="@+id/aboutBtn"
+	        style="@style/DashboardButton"
+	        android:text="Top Keywords Check"
+	        android:onClick="keywordClick"
+	        android:drawableTop="@drawable/top" />
+	    
+	    <!-- Google Rank Button -->
+	    <Button android:id="@+id/googleRankBtn"
+	        style="@style/DashboardButton"
+	        android:text="WHOIS" 
+	        android:onClick="whoisClick"
+	        android:drawableTop="@drawable/whois" />
+	    
+	    <!-- Domain Tools Button -->
+	    <Button android:id="@+id/domainToolsBtn"
+	        style="@style/DashboardButton" 
+	        android:onClick="domainClick"
+	        android:text="Domain Check"
+	        android:drawableTop="@drawable/domain" />
+	    
+	    <!-- Quick Quote Button -->
+	    <Button android:id="@+id/quickQuoteBtn"
+	        style="@style/DashboardButton"
+	        android:text="Backlink Count"
+	        android:onClick="backlinkClick"
+	        android:drawableTop="@drawable/backlink" />
+	    
+	    <!-- Filler Button -->
+	    <Button android:id="@+id/home_btn_vendors"
+	        style="@style/DashboardButton" />
+	    
+	    <!-- Filler Button -->
+	    <Button android:id="@+id/home_btn_announcements2"
+	        style="@style/DashboardButton"  />
+
+	   
+	    
+	</com.thomasbiddle.vezign.DashboardLayout> 
+    
+
+</LinearLayout>

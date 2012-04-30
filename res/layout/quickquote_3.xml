@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VezignLight"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Features"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Opt-In ($75)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Media Sharing ($75)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook Page Design ($350)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter Profile Design ($180)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eCommerce Setup ($1200)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEO Basic Setup ($465)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Version of Site ($240)" />
+    
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tablet Version of Site ($240)" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="nextPage"
+        android:layout_marginRight="20dp"
+        android:text="   Next   " />
+
+</LinearLayout>

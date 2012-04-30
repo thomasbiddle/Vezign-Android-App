@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VezignLight"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#000000"
+        android:paddingBottom="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engagement By Design"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    style="@style/VezignLight"
+	    android:id="@+id/about_sean"
+	    android:paddingBottom="10dp"
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <ImageView
+	        android:id="@+id/Sean_Pic"
+	        android:layout_width="104dp"
+	        android:layout_height="122dp"
+	        android:layout_gravity="center"
+	        android:src="@drawable/sean" />	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    style="@style/VezignLight"
+		    android:id="@+id/about_sean_text"
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		    <TextView
+		        android:id="@+id/Sean_Intro"
+		        android:textColor="#000000"
+		        android:paddingBottom="5dp"
+		        android:paddingTop="5dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Hi, I'm Sean!"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    
+		    <TextView
+		        android:id="@+id/Sean_Intro2"
+		        android:textColor="#000000"
+		        android:layout_marginRight="15dp"
+		        android:paddingBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="I'm the guy who makes the websites 'round here. "
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    <TextView
+		        android:id="@+id/Sean_Intro3"
+		        android:textColor="#000000"
+		        android:layout_marginRight="15dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Let me tell you a bit about Vezign.."
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    </LinearLayout>
+    </LinearLayout>
+    	    <TextView
+		        android:id="@+id/Vezign_Info"
+		        android:textColor="#000000"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:paddingBottom="5dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="\tTruth is, if you’re looking for a cheap, cookie cutter website, you’ve come to the wrong place. If you’re looking to engage your customers with an online experience, you’re in the right place."
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+    	    
+    	    <TextView
+		        android:id="@+id/Vezign_Info2"
+		        android:textColor="#000000"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:paddingBottom="15dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="\tBy combining Web Design, Brand Development, Strategic Marketing, and Social Media into one seamless process we bring your company into the online world with synergy and impact."
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
+    	    
+    	    <TextView
+		        android:id="@+id/Vezign_Info3"
+		        android:textColor="#000000"
+		        android:typeface="sans"
+		        android:textStyle="bold"
+		        android:layout_gravity="center"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="“Your Online Strategy is Your Business Strategy.”"
+		        android:textSize="12dp" />
+</LinearLayout>

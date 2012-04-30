@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="app_name">Vezign</string>
+	<string name="platform_prompt">Choose a platform</string>
+    <string-array name="platform_array">
+		<item>None</item>
+		<item>Joomla</item>
+		<item>Wordpress (Recommended)</item>   
+		<item>Drupal</item>
+	</string-array>
+	
+    <string name="pages_prompt">Estimate your number of pages ($70/ea)</string>
+    <string-array name="pages_array">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+	</string-array>
+
+
+</resources> 

@@ -1,0 +1,73 @@
+<!--
+  Copyright 2011 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+	<com.thomasbiddle.vezign.DashboardLayout
+	    style="@style/VezignLight"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/dashLayout"
+	    android:layout_weight="1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+	<!-- 
+	NOTICE REGARDING LAYOUT DESIGN
+		This layout (DashboardLayout) takes into consideration how large
+		the items are that are placing into it, in this case - the buttons
+		and the images that are place on top of them at 'android:drawableTop'.
+		
+		In order to fully utilize this layout, if your layout is displaying with 
+		a vertical row of icons, increase your icon size - or place filler icons in
+		place with extra buttons that have no 'android:onClick' setting.
+	 -->    
+	    <!-- About Button --> 
+	    <Button android:id="@+id/aboutBtn"
+	        style="@style/DashboardButton"
+	        android:text="About Vezign"
+	        android:onClick="aboutClick"
+	        android:drawableTop="@drawable/about_icon" />
+	    
+	    <!-- Google Rank Button -->
+	    <Button android:id="@+id/googleRankBtn"
+	        style="@style/DashboardButton"
+	        android:text="Google Rank Check" 
+	        android:onClick="gRankClick"
+	        android:drawableTop="@drawable/grank_icon" />
+	    
+	    <!-- Domain Tools Button -->
+	    <Button android:id="@+id/domainToolsBtn"
+	        style="@style/DashboardButton" 
+	        android:onClick="domainToolsClick"
+	        android:text="Domain Tools"
+	        android:drawableTop="@drawable/tools_icon" />
+	    
+	    <!-- Quick Quote Button -->
+	    <Button android:id="@+id/quickQuoteBtn"
+	        style="@style/DashboardButton"
+	        android:text="Quick Quote"
+	        android:onClick="qQuoteClick"
+	        android:drawableTop="@drawable/quote_icon" />
+	    
+	    <!-- Filler Button -->
+	    <Button android:id="@+id/home_btn_vendors"
+	        style="@style/DashboardButton" />
+	    
+	    <!-- Filler Button -->
+	    <Button android:id="@+id/home_btn_announcements2"
+	        style="@style/DashboardButton"  />
+
+	   
+	    
+	</com.thomasbiddle.vezign.DashboardLayout> 

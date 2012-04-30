@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thomasbiddle.vezign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:label="@string/app_name" >
+        <activity 
+            android:name=".VezignMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:label="@string/app_name" android:name=".AboutVezignActivity"/>
+        <activity android:label="@string/app_name" android:name=".GoogleRankActivity"/>
+        <activity android:label="@string/app_name" android:name=".DomainToolsActivity"/>
+        <activity android:label="@string/app_name" android:name=".QuoteActivity"/>
+        <activity android:label="@string/app_name" android:name=".Quote1Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote2Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote3Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote4Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote5Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote6Activity"/>
+        <activity android:label="@string/app_name" android:name=".Quote7Activity"/>
+        <activity android:label="@string/app_name" android:name=".DomainAvailabilityActivity"/>
+        <activity android:label="@string/app_name" android:name=".TopKeywordsActivity"/>
+        <activity android:label="@string/app_name" android:name=".WhoisSearchActivity"/>
+    </application>
+
+</manifest>
